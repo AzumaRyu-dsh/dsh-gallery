@@ -1,4 +1,4 @@
-﻿# dsh-gallery · 图库
+# dsh-gallery · 图库
 
 一个 DSH 插件：**把你本地的图片文件夹当图库来翻**。
 
@@ -10,11 +10,21 @@
 
 ## 装
 
+直接从 GitHub 装：
+
 ```bash
-dsh plugin add link:<本目录的绝对路径>
+dsh plugin add github:AzumaRyu-dsh/dsh-gallery
+```
+
+或者把仓库 clone 到本地，用路径装：
+
+```bash
+dsh plugin add link:<仓库所在目录的绝对路径>
 ```
 
 装完 **重启一次 DSH**（bundle 层要重启才组装）。之后右上角会出现一个图片图标，点开就是图库。
+
+卸载：`dsh plugin remove dsh-gallery`，再重启。
 
 要求：DSH ≥ 0.2.1-rc.2，Node ≥ 22.19。**不需要 Python，不需要登录任何账号。**
 

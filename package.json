@@ -11,6 +11,10 @@
     "viewer"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AzumaRyu-dsh/dsh-gallery.git"
+  },
   "type": "module",
   "main": "lib/index.js",
   "exports": {
