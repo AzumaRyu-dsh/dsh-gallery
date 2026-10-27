@@ -1,4 +1,4 @@
-# dsh-gallery · 图库
+﻿# dsh-gallery · 图库
 
 一个 DSH 插件：**把你本地的图片文件夹当图库来翻**。
 
@@ -7,6 +7,8 @@
 ![图库面板](docs/preview-grid.png)
 
 ![单图查看](docs/preview-viewer.png)
+
+![画师与 ID 角标](docs/preview-badge.png)
 
 > 截图里的图是示意色块，不是真图。显示名可以自己改（默认「我的图库」），装完进 **设置 → 图库** 改就行。
 
